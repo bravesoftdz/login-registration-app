@@ -78,7 +78,7 @@ function Login(){
                 </div>
             </form>
             <div className="_navBtn">
-                <button onClick={toggleNav}>Register</button>
+                <button onClick={toggleNav}>Registre-se</button>
             </div>
         </div>
     );

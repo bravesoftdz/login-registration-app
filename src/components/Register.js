@@ -57,7 +57,7 @@ function Register(){
 
     return(
         <div className="_loginRegister">
-            <h1>Sign Up</h1>
+            <h1>Registre-se</h1>
             <form onSubmit={submitForm} noValidate>
                 <div className="form-control">
                     <label>Nome Completo</label>
@@ -78,7 +78,7 @@ function Register(){
                 {errorMsg}
                 {successMsg}
                 <div className="form-control">
-                    <button type="submit">Sign Up</button>
+                    <button type="submit">Gravar</button>
                 </div>
             </form>
             <div className="_navBtn">
